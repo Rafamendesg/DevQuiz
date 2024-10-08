@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Rafaela M. Gomes">
+    <meta name="description" content="Quiz interativo para testar seus conhecimentos em programação">
+    <link rel="stylesheet" href="style.css">
+    <title>Dev quiz</title>
+</head>
+<body>
+    <header>
+        <h1>Quiz para Programadores: Desafie seus Conhecimentos!</h1>
+        <p>Teste seus conhecimentos em programação e veja qual  pontuação você consegue fazer!</p>
+    </header>
+    <main>
+        <!-- introdução -->
+        <section>
+            <h2>Sobre esse quiz</h2>
+            <p><strong>Este quiz</strong> foi desenvolvido para avaliar seus conhecimentos em <em>diversas áreas da programação</em>, perfeito para quem busca aprimorar suas habilidades ou testar seus conhecimentos antes de uma entrevista técnica.</p>
+            <p>Abrange desde conceitos básicos até tópicos mais avançados, desafiando programadores de todos os níveis.</p>
+        </section>
+        <!-- Pergunta 1 -->
+        <section>
+            <h2>1. Qual linguagem é usada para estruturar páginas web?</h2>
+            <form action="#">
+                <input type="radio" value="Python" id="p1a" name="pergunta1">
+                <label for="p1a">Python</label><br>
+
+                <input type="radio" value="HTML" id="p1b" name="pergunta1">
+                <label for="p1b">HTML</label><br>
+
+                <input type="radio" value="Javascript" id="p1c" name="pergunta1">
+                <label for="p1c">Javascript</label><br>
+
+                <input type="radio" value="Python" id="p1d" name="pergunta1">
+                <label for="p1d">Ruby</label><br>
+
+                <input type="radio" value="CSS" id="p1e" name="pergunta1">
+                <label for="p1e">CSS</label>
+
+            </form>
+        </section>
+        <!-- Pergunta 2 -->
+        <section>
+            <h2>2. O que é um algoritmo e qual a sua importância na programação?</h2>
+            <form action="#">
+                <input type="text" id="p2" name="pergunta2" placeholder="Digite sua resposta...">
+            </form>
+
+        </section>
+        <!-- Pergunta 3 -->
+        <section>
+            <h2>3. Escreva um exemplo de senha forte</h2>
+            <form action="#">
+                <input type="password" id="p3" name="pergunta3" placeholder="Digite a senha...">
+            </form>
+        </section>
+        <!-- Pergunta 4 -->
+        <section>
+            <h2>4. Em que ano HTML lançou sua primeira versão?</h2>
+            <form action="#">
+                <input type="date" id="p4" name="pergunta4">
+            </form>
+        </section>
+        <!-- Pergunta 5 -->
+        <section>
+            <h2>5. Qual das seguintes opções <span>Não</span> é um tipo de dado primitivo em muitas linguagens de programação?</h2>
+            <form action="#">
+                <input type="radio" id="p5a" name="pergunta5" value="inteiro">
+                <label for="p5a">Inteiro</label><br>
+            
+                <input type="radio" id="p5b" name="pergunta5" value="string">
+                <label for="p5b">String</label><br>
+           
+                <input type="radio" id="p5c" name="pergunta5" value="objeto">
+                <label for="p5c">Objeto</label><br>
+           
+                <input type="radio" id="p5d" name="pergunta5" value="booleano">
+                <label for="p5a">Booleano</label>
+            </form>
+        </section>
+        <!-- Pergunta 6 -->
+        <section>
+            <h2>6. Faça o upload de um arquivo de código HTML</h2>
+            <form action="#">
+                <input type="file" id="p6" name="pergunta6">
+
+            </form>
+        </section>
+        <!-- Pergunta 7: menu suspenso-->
+        <section>
+            <h2>7. Qual o laço de repetição mais adequado para executar uma ação um número pré-definido de vezes? </h2>
+            <form action="#">
+                <select name="pergunta7" id="p7">
+                    <option value="while">while</option>
+                    <option value="do...while">do...while</option>
+                    <option value="for">for</option>
+                    <option value="foreach">foreach</option>
+                </select>
+            </form>
+        </section>
+        <!-- Pergunta 8: imagem -->
+        <section>
+            <h2>8. Qual linguagem de programação é representada pelo logotipo abaixo?</h2>
+            <figure>
+                <img src="/quiz/assts/java.png" alt="logo de uma linguagem de programação" width="300px"><br>
+                <figcaption>Figura 1: Logotipo de uma linguagem de programação</figcaption>
+            </figure>
+            <input type="text" id="p8" name="pergunta8" placeholder="Digite sua resposta...">
+
+        </section>
+        <!-- Pergunta 9 -->
+        <section>
+          <h2>9. Qual o conceito de recursividade em programação?</h2>
+          <form action="">
+            <input type="radio" name="pergunta9" id="p9a" value="A capacidade de uma função chamar a si mesma.">
+            <label for="p9a">A capacidade de uma função chamar a si mesma.</label><br>
+
+            <input type="radio" name="pergunta9" id="p9b" value="A repetição de um bloco de código até que uma condição seja falsa.</">
+            <label for="p9b">A repetição de um bloco de código até que uma condição seja falsa.</label><br>
+        
+            <input type="radio" name="pergunta9" id="p9c" value=" A criação de novas variáveis dentro de uma função">
+            <label for="p9c"> A criação de novas variáveis dentro de uma função.</label><br>
+
+            <input type="radio" name="pergunta9" id="p9d" value="A passagem de argumentos por referência.">
+            <label for="p9d"> A passagem de argumentos por referência.</label><br>
+          </form>
+        </section>
+        <!-- Pergunta 10 -->
+        <section>
+            <h2>10. Quais desses são frameworks ou bibliotecas JavaScript?</h2>
+            <form action="#">
+                <input type="checkbox" name="pergunta10" id="p10a" value="react">
+                <label for="p10a">React</label><br>
+
+                <input type="checkbox" name="pergunta10" id="p10b" value="django">
+                <label for="p10a">Django</label><br>
+
+                <input type="checkbox" name="pergunta10" id="p10c" value="angular">
+                <label for="p10a">Angular</label><br>
+
+                <input type="checkbox" name="pergunta10" id="p10d" value="jQuery">
+                <label for="p10d">jQuery</label><br>
+
+                <input type="checkbox" name="pergunta10" id="p10e" value="flask">
+                <label for="p10e">Flask</label><br>
+
+                <input type="checkbox" name="pergunta10" id="p10f" value="vue.js">
+                <label for="p10a">Vue.js</label>
+            </form>
+        </section>
+        <!-- Pergunta 11 -->
+        <section>
+            <h2>11. Quais das linguagens abaixo não são consideradas linguagens de programação?</h2>
+
+            <form action="#">
+                <input type="checkbox" name="pergunta11" id="p11a" value="python">
+                <label for="p11a">Python</label><br>
+
+                <input type="checkbox" name="pergunta11" id="p11b" value="sql">
+                <label for="p11b">SQL</label><br>
+
+                <input type="checkbox" name="pergunta11" id="p11c" value="html">
+                <label for="p11c">HTML</label><br>
+
+                <input type="checkbox" name="pergunta11" id="p11d" value="javascript">
+                <label for="p11d">JavaScript</label><br>
+
+                <input type="checkbox" name="pergunta11" id="p11e" value="json">
+                <label for="p11e">JSON</label><br>
+
+                <input type="checkbox" name="pergunta11" id="p11f" value="css">
+                <label for="p11f">CSS</label><br>
+
+                <input type="checkbox" name="pergunta11" id="p11g" value="swift">
+                <label for="p11g"> Swift</label>
+            </form>
+        </section>
+        <!-- Pergunta 12 -->
+        <section>
+            <h2>12. No contexto de banco de dados, o que significa "normalização"?</h2>
+            <form action="#">
+                <input type="radio" name="pergunta12" id="p12a" value=" Dividir tabelas grandes em tabelas menores">
+                <label for="p12a">Dividir tabelas grandes em tabelas menores</label><br>
+
+                <input type="radio" name="pergunta12" id="p12b" value="Aumentar o tamanho das colunas">
+                <label for="p12b">Aumentar o tamanho das colunas</label><br>
+
+                <input type="radio" name="pergunta12" id="p12c" value="Combinar várias tabelas em uma única">
+                <label for="p12c">Combinar várias tabelas em uma única</label><br>
+
+                <input type="radio" name="pergunta12" id="p12d" value="Eliminar redundâncias e garantir a integridade dos dados">
+                <label for="p12d">Eliminar redundâncias e garantir a integridade dos dados</label><br>
+            </form>
+        </section>
+        <!-- Tabela de pontuação -->
+        <section>
+            <h2>Tabela de Pontuação</h2>
+            <table border="1px">
+                <thead>
+                   <tr>
+                        <th>Pontuação</th>
+                        <th>Avaliação</th>
+                   </tr>
+                </thead>
+                <tr>
+                    <td>0-2</td>
+                    <td> Não desista! Cada erro é uma oportunidade de aprender algo novo.</td>
+                </tr>
+
+                <tr>
+                    <td>2-4</td>
+                    <td>Não desanime! A prática leva à perfeição.</td>
+                </tr>
+
+                <tr>
+                    <td>4-6</td>
+                    <td>Quase lá! Continue praticando e você verá seus conhecimentos crescerem.</td>
+                </tr>
+
+                <tr>
+                    <td>6-8</td>
+                    <td>Bom! Você está no caminho certo.</td>
+                </tr>
+
+                <tr>
+                    <td>8-10</td>
+                    <td>Impressionante! Seus conhecimentos em programação são satisfatorio.</td>
+                </tr>
+
+                <tr>
+                    <td>10-12</td>
+                    <td>Parabéns! Sua dedicação é inspiradora. </td>
+                </tr>
+                <tfoot>
+                    <tr>
+                        <td colspan="2">Boa sorte na proxima!</td>
+                    </tr>
+                </tfoot>
+            </table>
+            
+        </section>
+        <!-- Lista de respostas -->
+        <section>
+            <h2>Verifique suas respostas</h2>
+            <details>
+                <summary>Clique aqui para ver as respostas do quiz</summary>
+                <ol>
+                    <li>HTML</li>
+                    <li>Um algoritmo é uma sequência de passos bem definida para resolver um problema. Na programação, algoritmos são a base para criar programas. A importância dos algoritmos reside na sua capacidade de organizar o pensamento lógico e na eficiência com que resolvem problemas.</li>
+                    <li>Ab23.Kaboo83#</li>
+                    <li>1991</li>
+                    <li>Objeto</li>
+                    <li>Arquivo de ter extensão . html</li>
+                    <li>for</li>
+                    <li>Java</li>
+                    <li>A recursividade é uma técnica de programação onde uma função chama a si mesma, direta ou indiretamente, para resolver um problema.</li>
+                    <li>React, Angular, jQuery, Vue.js</li>
+                    <li>HTML, CSS e JSON</li>
+                    <li>Eliminar redundâncias e garantir a integridade dos dados</li>
+                </ol>
+         </details>
+
+        </section>
+        <!-- Formulário de feedback -->
+        <section>
+            <h2>Nos dê o seu feedback</h2>
+            <form action="#">
+                <fieldset>
+                    <legend>Informações de contato</legend>
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name"><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email"><br>
+                    <label for="comentario">Comentários:</label><br>
+                    <textarea name="comentario" id="comentario" cols="50" rows="4" placeholder="Digite seu Comentário aqui..."></textarea><br>
+                    <button>Enviar feedback</button>
+               </fieldset>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Dev quiz. Todos os direitos reservados</p>
+    </footer>
+</body>
+</html>

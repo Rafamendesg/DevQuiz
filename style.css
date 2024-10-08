@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100dvh;
+  background-color: #e7e7e7;
+  color: #616844;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+header {
+  padding: 2rem;
+  background-color: #17363a;
+  text-align: center;
+}
+
+main {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+main section {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+main section h2 {
+  color: #343d0d;
+  font-size: 1.2rem;
+}
+
+input[type=radio], input[type=checkbox] {
+  accent-color: #b3c447;
+}
+
+input[type=text], input[type=password], input[type=date], input[type=email] {
+  width: 100%;
+  padding: 0.6rem;
+  border: 2px solid #b3c447;
+  outline: none;
+  border-radius: 6px;
+  background-color: transparent;
+}
+
+input::-moz-placeholder {
+  color: #b3c447;
+}
+
+input::placeholder {
+  color: #b3c447;
+}
+
+select {
+  cursor: pointer;
+  background-color: #d1db91;
+  color: #283007;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+img {
+  width: 5rem;
+  border-radius: 5px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+table th {
+  background-color: #d1db91;
+  color: #343d0d;
+  padding: 1rem;
+}
+table td {
+  color: #343d0d;
+  padding: 1rem;
+  text-align: center;
+}
+table tfoot td {
+  background-color: #343d0d;
+  color: #b3c447;
+  border-collapse: collapse;
+}
+
+details {
+  width: 100%;
+  background-color: #d1db91;
+  border-radius: 5px;
+  padding: 1rem;
+}
+details summary {
+  color: #343d0d;
+  margin: 0.6rem;
+  cursor: pointer;
+}
+
+ol {
+  margin-left: 1.5;
+}
+ol ol li {
+  padding: 5px;
+}
+
+fieldset {
+  border: 2px solid #d1db91;
+  border-radius: 5px;
+  padding: 1rem;
+}
+fieldset legend {
+  color: #283007;
+  padding: 0 0.5rem;
+}
+fieldset textarea {
+  outline: none;
+  border-radius: 5px;
+  border: 2px solid #d1db91;
+  background-color: transparent;
+}
+
+button {
+  background-color: #d1db91;
+  color: #283007;
+  border: none;
+  border-radius: 5px;
+  padding: 0.8rem;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
