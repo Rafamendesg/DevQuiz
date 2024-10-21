@@ -7,7 +7,7 @@
 
 body {
   width: 100vw;
-  height: 100dvh;
+  height: 100vh;
   background-color: #e7e7e7;
   color: #616844;
   font-family: "Roboto", sans-serif;
@@ -133,4 +133,24 @@ button {
   border-radius: 5px;
   padding: 0.8rem;
   cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  header {
+    width: 120vw;
+    height: 40vh;
+    font-size: 1rem;
+    background-color: #17363a;
+    text-align: center;
+  }
+  header h1 {
+    font-size: 2rem;
+  }
+  header p {
+    font-size: 1.5rem;
+  }
+  main {
+    padding: 1rem;
+    gap: 1rem;
+  }
 }/*# sourceMappingURL=style.css.map */
